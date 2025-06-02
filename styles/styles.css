@@ -2,6 +2,8 @@ h1{
     font-size: 4em;
     text-align: center ;
     align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: aqua;
 }
 
 header{
