@@ -1,5 +1,5 @@
 alert(
-  "                          HOLA!  \n \n  Vamos a jugar al PIEDRA, PAPEL o TIJERA"
+  "                          HOLA!  \n \n Hoy vamos a jugar al PIEDRA, PAPEL o TIJERA"
 );
 
 const jugador1 = prompt("Escribe tu nombre \n");
@@ -64,8 +64,8 @@ function juego() {
 
     let counter = resultado(jugador1Jugada, pcJugada, i);
 
-    total = total + counter;
-
+    total[0] += counter[0];
+    total[1] += counter[1];
     
   }
 
